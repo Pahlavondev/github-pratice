@@ -1,0 +1,35 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: all 0.3s ease;
+}
+
+.box:hover {
+  /* transform: rotate(45deg); */
+  /* transform: translateX(30px) translateY(30px); */
+  transform: scaleX(2) scaleY(3);
+  /* border-radius: 50%; */
+}
+
+.box:first-child {
+  background-color: green;
+}
+
+.box:last-child {
+  background-color: yellow;
+}
+
+.text {
+  font-size: 20px;
+  color: blueviolet;
+  font-family: sans-serif;
+  font-weight: 600;
+}
